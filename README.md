@@ -24,12 +24,15 @@ Testing different git hook managers:
   * supports running hooks in parallel
   * stores configuration in `lefthook.yml` in the root of the repo
   * support for passing changed file list into pre
+  * colors, pretty output message
 * [Autohook](https://github.com/Autohook/Autohook)
   * stars: 135
   * written in: shell
   * no system-wide installation needed, just commit autohook.sh to the repo
   * no colors
   * no parallel hook execution
+  * hooks go in `hooks/scripts` dir, then get symlinked to ie. `hooks/pre-commit/*`
+    * symlinking part feels very awkward
 * [pre-commit](https://github.com/pre-commit/pre-commit)
   * 11.7k stars
   * written in: python

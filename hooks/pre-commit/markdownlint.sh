@@ -1,0 +1,1 @@
+../scripts/markdownlint.sh

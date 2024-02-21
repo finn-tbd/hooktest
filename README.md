@@ -23,7 +23,7 @@ Testing different git hook managers:
     including npm, gem, brew (without a tap), deb, rpm...
   * supports running hooks in parallel
   * stores configuration in `lefthook.yml` in the root of the repo
-  * support for passing changed file list into pre
+  * support for passing changed file list into hook
   * colors, pretty output message
 * [Autohook](https://github.com/Autohook/Autohook)
   * stars: 135

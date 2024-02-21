@@ -36,12 +36,15 @@ Testing different git hook managers:
 * [pre-commit](https://github.com/pre-commit/pre-commit)
   * 11.7k stars
   * written in: python
-  * pros:
-    * seems fairly mature
+  * seems fairly mature
   * [installable with brew](https://pre-commit.com/#install)
   * supports running hooks in parallel
-  * cons:
-    * python is annoying
+  * python is annoying
+  * hooks are configured in `.pre-commit-config.yaml` but the actual scripts
+    live in another repo.
+
+so far unreviewed:
+
 * [githooks](https://github.com/gabyx/githooks)
   * 90 stars
   * written in: go
